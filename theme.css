@@ -1,0 +1,351 @@
+:root {
+    --mainColour: #000000; /* the colour used for the main background and elements, in this case black */
+    --mainColTwo: #191919; /* the colour used to accent the previous colour, mainly for headersand borders */
+    --mainColInv: #FFFFFF; /*mainly used for text and other things that need to contrast the previous two*/
+  }
+  #school-bar {
+      background-color: var(--mainColour)
+  }
+  
+  .css-1g7hmtt .MuiDrawer-paper {
+      background-color: var(--mainColour);
+  }
+  .css-zhquhw {
+      background-color: var(--mainColour);
+  }
+  .css-1065mqz {
+      background: var(--mainColour);
+  }
+  .css-y83xlq {
+      color: var(--mainColInv);
+  }
+  body {
+      background: var(--mainColour);
+      color: var(--mainColInv);
+  }
+  
+  .css-1f4hbwk {
+      background-image: none;
+  }
+  .css-30aj6x {
+      color: var(--mainColInv);
+  }
+  .ff-dashboard-wrapper .ff_container-dashboard-section__header {
+      background: var(--mainColTwo);
+  }
+  .ff-message-content,
+  .ff-comment-content,
+  .ff-draggable .ff-bookmark-content,
+  .ff-search-result-content {
+  
+      background-color: var(--mainColour);
+  }
+  .ff-dashboard-wrapper .ff_container-dashboard-section__main {
+  
+      background-color: var(--mainColour);
+  }
+  .ff-dashboard-wrapper .ff_container-dashboard-section__header > h3 {
+      color: var(--mainColInv);
+  }
+  .ff-dashboard-wrapper .ff_container-dashboard-section__footer {
+      background: var(--mainColour);
+      border-top: 1px solid var(--mainColTwo);
+  }
+  .ff_container-dashboard-section__title {
+      color: var(--mainColInv);
+  }
+  .ff_container-dashboard-section__footer {
+      border-radius: 0;
+  }
+  .ff_module-task-mark__item {
+      color: var(--mainColInv);
+  }
+  .css-gmcqi7 {
+      background: var(--mainColTwo);
+      color: var(--mainColInv);
+  }
+  .css-gmcqi7 > h2 {
+      color: var(--mainColInv);
+  }
+  .css-ybfes5 {
+      background: var(--mainColour);
+  }
+  .css-1n951nh {
+      background: var(--mainColour);
+  }
+  .css-1sfegbq {
+      background: var(--mainColour);
+      border-top: 1px solid var(--mainColTwo);
+  }
+  .homepage .ff-component-type-html {
+      background: var(--mainColour);
+  }
+  .css-yi3o5x {
+      background: var(--mainColour);
+  }
+  .css-99q1rn {
+      background: var(--mainColour);
+  }
+  .css-1itakn0 {
+      color: var(--mainColInv);
+  }
+  .ff_container-dashboard-item-repeater__item {
+      border-bottom: 1px solid var(--mainColTwo);
+  }
+  .css-dgdpo0 {
+      border-bottom: 1px solid var(--mainColTwo);
+  }
+  .ff_container-dashboard-section--bookmarks .ff-segment h4 {
+      border-bottom: 1px solid var(--mainColTwo);
+  }
+  .ff-calendar-item.selected h3 {
+      background-image: none;
+  }
+  .ff-calendar-item h3 {
+      color: var(--mainColInv);
+      border-bottom: 1px solid var(--mainColTwo);
+  }
+  .ff-calendar-item h3 a {
+      color: var(--mainColInv) !important;
+  }
+  .ff-calendar {
+      margin-bottom: 0;
+  }
+  .css-5xfwxd {
+      color: var(--mainColInv);
+  }
+  .css-savg3 .event .label {
+      color: var(--mainColInv);
+  }
+  .css-17y7tfl .eventTime {
+      color: var(--mainColInv);
+  }
+  .ff-navigationcomponent {
+      background: var(--mainColour);
+  }
+  .ff-navigationcomponent:not(.ff-navigationcomponent--text-only) .ff-navigationcomponent__item .ff-navigationcomponent__meta {
+      color: var(--mainColInv);
+      background: var(--mainColour) !important;
+      font-weight: bold;
+  }
+  .ff-navigationcomponent__link {
+      border-radius: 0;
+  }
+  .css-1hm202b {
+      background: var(--mainColour);
+  }
+  .ff-dashboard-left .css-savg3 .event,
+  .twocolumnleft .css-savg3 .event {
+      border-left-color: var(--mainColTwo);
+  }
+  @media screen and (max-width: 768px) {
+      .ff-dashboard-left .css-savg3 .event,
+      .twocolumnleft .css-savg3 .event {
+          border-bottom-color: var(--mainColTwo);
+      }
+  }
+  .css-9pyuq9 .MuiPaper-root {
+      background: var(--mainColour);
+  }
+  .css-wjhm60.Mui-selected {
+      background: var(--mainColInv);
+      color: var(--mainColour);
+  }
+  .css-wjhm60:hover .MuiListItem-root,
+  .css-wjhm60:hover .MuiTypography-root {
+      color: var(--mainColour);
+      background: var(--mainColInv);
+  }
+  .css-wjhm60 {
+      background: var(--mainColour);
+      border-bottom: 1px solid var(--mainColour);
+      color: var(--mainColInv);
+  }
+  .css-1mapcac {
+      box-shadow: none;
+  }
+  .css-9pyuq9 .MuiPaper-root .MuiPopover-paper::before {
+      box-shadow: none;
+  }
+  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, p:first-child {
+    color: var(--mainColInv);
+  }
+  .page-wrapper {
+      background: var(--mainColour);
+  }
+  .page-content {
+      background: var(--mainColour);
+  }
+  .css-1myrs0s {
+    border-color: var(--mainColInv);
+      border-style: none;
+    background-color: var(--mainColTwo);
+  }
+  .ff_module-date-stepper {
+    color: var(--mainColInv);
+  }
+  .css-7sg1f8 {
+      border-color: var(--mainColour);
+  }
+  .css-1c5tqxg {
+    border-top-color: var(--mainColour);
+  }
+  .css-hl9uzx {
+    background-color: var(--mainColour);
+    color: var(--mainColInv);
+  }
+  .css-hl9uzx .MuiAlert-icon {
+    color: var(--mainColInv);
+  }
+  .css-1e758l9 {
+    color: var(--mainColInv);
+  }
+  .css-11gcp07 {
+    color: var(--mainColInv);
+  }
+  .css-1i8yxyk {
+    border-color: var(--mainColTwo);
+  }
+  .css-1n5rklv {
+    background-color: var(--mainColour);
+    border-bottom-color: var(--mainColTwo);
+  }
+  .css-1xniakj {
+    background: var(--mainColTwo);
+  }
+  .css-2invva{
+    background-color: var(--mainColour);
+    color: var(--mainColInv);
+  }
+  .css-2invva .MuiAlert-icon {
+    color: var(--mainColInv);
+  }
+  .page {
+      background: var(--mainColour);
+  }
+  .ff_module-segments__link {
+    color: #1189e6;
+    background-color: var(--mainColour);
+  }
+  
+  /* planner weekly view */
+  
+  .css-1n8mts {
+    background-color: var(--mainColour);
+    border-left: 1px solid var(--mainColTwo);
+    border-right: 1px solid var(--mainColTwo);
+  }
+  .css-1vf7cz6 {
+    border-right: 1px solid var(--mainColTwo);
+  }
+  .css-up5b7d {
+    color: var(--mainColInv);
+    border-top-color: var(--mainColTwo);
+    border-bottom-color: var(--mainColTwo);
+    background-color: var(--mainColour);
+  }
+  .css-1r7a6lv {
+    background-color: var(--mainColour);
+  }
+  .css-1g3iqby {
+  
+    border-right-color: var(--mainColTwo);
+  }.css-1r7a6lv::after {
+    /*
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 1px;
+    width: 999999px;
+    the above is included to show how stupid it is 
+      but i mean it works sooo
+      
+      who wrote this, i want to know what they are on so i can have some
+      also what is their email i would like to speak to them*/
+    background-color: Var(--mainColTwo); /* THIS IS THE CSS FOR THE LINE THAT GOES ACROSS THE SCREEN WTF FIREFLY */
+  }
+  
+  .page-wrapper {
+      background: var(--mainColour);
+  }
+  .ff-hasjs {
+      background: var(--mainColour);
+  }
+  .css-s3zt50 {
+    outline-color: var(--mainColTwo); /* this is the outline for the classes in the weekly view */
+    background-color: var(--mainColour); /* the background for the classes*/
+    /*cursor: pointer; firfly actually defines the cursor as a pointer a bunch its really weird and im not sure why */
+     /* i didnt realise this at the time but that pointer style flag was actually from a style that only shouldve been applied when the viewpoint was less than 960px wide, I THINK, i actually cant find the original style i copied it from */
+  }
+  
+  
+  /*task page */
+  .css-w1sd5q {
+    background: var(--mainColTwo);
+    color: var(--mainColInv);
+    border-color: var(--mainColTwo);
+  }
+  .css-ji0ddf {
+    background-color: var(--mainColour);
+  }
+  .css-3sh6zs {
+    background-color: var(--mainColour);
+    color: var(--mainColInv);
+  }
+  .css-1ly7h7w {
+    border-color: var(--mainColour);
+  }
+  .css-132mzzm {
+    color: var(--mainColInv);
+  }
+  .css-1fx8m19 {
+    color: var(--mainColInv);
+  }
+  .css-1qp31er {
+    color: var(--mainColInv);
+  }
+  .css-isbt42 > .MuiGrid-item {
+      background-color: var(--mainColour);
+  }
+  .css-xr0ivq {
+    color: var(--mainColInv);
+  }
+  .css-1fxn75n {
+    color: var(--mainColInv);
+  }
+  .css-nf8n8n {
+    color: rgb(14, 117, 195);
+    background: var(--mainColTwo);
+  }
+  /*maybe link to website*/
+  .css-1awivu::after {
+      content: "ill do it later";
+      color: var(--mainColInv);
+  }
+  /*more task shnanagans*/
+  .task-details .page-content main > header {
+    background-color: var(--mainColour) !important;
+    color: var(--mainColInv);
+  }
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    background: var(--mainColour)!important;
+  }
+  /*trying to make it all work maybe idk
+  div, span {
+      background: var(--mainColour)!important;
+      color: var(--mainColInv)!important;
+  }
+  this makes alot of things work but breaks so much its not worth it
+  */
+  
+  
+  /* this is to return the planner week/day switching*/
+  .ff_module-date-stepper__icon--next {
+      background-image: url(https://dynamitegus.org/i/CHEESECAKE.jpg);
+      background-size: contain;
+  }
+  .ff_module-date-stepper__icon--prev {
+              background-image: url(https://portfolio.dynamitegus.org/i/the%20greatesttransparentthesecond.png);
+      background-size: contain;
+  }
