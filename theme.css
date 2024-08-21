@@ -1,8 +1,18 @@
 :root {
-  --mainColour: #000000; /* the colour used for the main background and elements, in this case black */
-  --mainColTwo: #191919; /* the colour used to accent the previous colour, mainly for headersand borders */
+  --mainColour: #1e1e2e; /* the colour used for the main background and elements, in this case black */
+  --mainColTwo: #11111b; /* the colour used to accent the previous colour, mainly for headersand borders */
   --mainColInv: #FFFFFF; /*mainly used for text and other things that need to contrast the previous two*/
+   --mainAccent: #f5c2e7;
+     
+
 }
+
+/*
+body {
+
+}*/
+
+
 #school-bar {
     background-color: var(--mainColour)
 }
@@ -456,4 +466,50 @@ li:only-child > div {
     border-bottom-color: var(--mainColour);
 }
 
+/*tasks*/
+.css-n6ig68 {
+    color: var(--mainAccent)!important;
+}
 
+.ff_container-task-event-repeater__item div{
+    background: var(--mainColour)!important;
+    border: 1px solid var(--mainColour)!important;
+}
+
+.css-1g7hmtt .MuiDrawer-paper {
+  box-shadow: none;
+}
+
+/*hte image on the main page i want it gone*/
+.css-1qdb5b1 {
+  background-image: url("");
+    height: 0;
+    padding: 0;
+   
+}
+.css-99q1rn {
+  padding: 0;
+  height: 0;
+}
+/*tasks on the dashboard*/
+.css-p0er8x {
+  background: var(--mainColour);
+  border-top: 1px solid var(--mainColour);
+}
+
+/*planner on the dashboard*/
+@media screen and (min-width: 768px) {
+  .ff-dashboard-left .css-1d173on .event, .twocolumnleft .css-1d173on .event {
+    border-left: 1px solid var(--mainColTwo);
+  }
+}
+.css-1d173on .event {
+  border-color: var(--mainColTwo);
+}
+
+
+/*navigation*/
+.ff-navigationcomponent__item {
+  border: none;
+  box-shadow: none;
+}
